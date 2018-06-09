@@ -38,7 +38,7 @@ least_coins(29)
 least_coins(99)
 
 
-# explanation of .modulo lines
+# explanation of .modulo
 
 # .modulo gives the remainder in a division problem
 
@@ -48,18 +48,5 @@ least_coins(99)
 # 30.modulo(4) = 2 
 # 30 / 4 = 7 with a remainder of 2
 
-# given that amount = 27
-
-# coins["quarters"] = (amount - amount.modulo(25)) / 25
-# (amount - amount.modulo(25)) / 25
-# (27 - remainder of 27/25) / 25
-# (27 - 2) / 25
-# (25) / 25
-# 1
-# coins["quarters"] = 1
-
-# amount = amount.modulo(25)
-# amount.modulo(25)
-# remainder of 27 / 25
-# 2 
-# amount = 2
+# 44.modulo(10) = 4 
+# 44 / 10 = 4 with a remainder of 4
