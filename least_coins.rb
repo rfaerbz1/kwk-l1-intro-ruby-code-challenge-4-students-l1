@@ -43,7 +43,10 @@ least_coins(99)
 # .modulo gives the remainder in a division problem
 
 # 10.modulo(3) = 1 
-# 10 / 3 = 9 with a remainder of 1
+# 10 / 3 = 3 with a remainder of 1
+
+# 30.modulo(4) = 2 
+# 30 / 4 = 7 with a remainder of 2
 
 # given that amount = 27
 
