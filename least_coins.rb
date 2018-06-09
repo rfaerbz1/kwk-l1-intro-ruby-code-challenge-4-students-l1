@@ -40,6 +40,11 @@ least_coins(99)
 
 # explanation of .modulo lines
 
+# .modulo gives the remainder in a division problem
+
+# 10.modulo(3) = 1 
+# 10 / 3 = 9 with a remainder of 1
+
 # given that amount = 27
 
 # coins["quarters"] = (amount - amount.modulo(25)) / 25
